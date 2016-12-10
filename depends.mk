@@ -39,7 +39,7 @@ PROTOBUF_DIR=/usr/local
 ##   $(SNAPPY_DIR)/lib/libsnappy.a
 ##
 #SNAPPY_DIR=/home/users/qinzuoyan01/libs/snappy-1.1.1/output
-SNAPPY_DIR=/usr
+SNAPPY_DIR=/usr/local
 ################################################################
 
 ################################################################
@@ -50,6 +50,6 @@ SNAPPY_DIR=/usr
 ##   $(ZLIB_DIR)/lib/libz.*
 ##
 ## If zlib is already installed in system path, ignore ZLIB_DIR.
-#ZLIB_DIR=
+ZLIB_DIR=/usr
 ################################################################
 
